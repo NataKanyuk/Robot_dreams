@@ -1,0 +1,59 @@
+.my_name {
+  font-style: italic;
+  border-bottom: 1px solid salmon;
+}
+.my_photo {
+  border: 2px solid salmon;
+  padding: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid salmon;
+}
+.work_exp {
+  border-bottom: 1px solid salmon;
+}
+
+.skills {
+  border-bottom: 1px solid salmon;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font: weight 100px;
+}
+
+.position {
+  background-color: rgb(42, 65, 197);
+  padding-right: 24px;
+  border-color: #00f;
+}
+
+.year {
+  background-color: rgb(42, 65, 197);
+  font-weight: bold;
+  padding: 16px;
+  margin: 10px;
+}
+.work {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(98, 124, 207);
+}
+b {
+  font-weight: lighter;
+}
+
+a:link {
+  color: #00f(187, 59, 78);
+}
+
+a:visited {
+  color: #005;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.list {
+  list-style-type: square;
+}
