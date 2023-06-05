@@ -1,6 +1,9 @@
+table {
+  width: 100%;
+}
 .my_name {
   font-style: italic;
-  border-bottom: 1px solid salmon;
+  text-decoration: underline solid salmon;
 }
 .my_photo {
   border: 2px solid salmon;
@@ -8,15 +11,25 @@
 }
 
 h2 {
-  border-bottom: 1px solid salmon;
+  text-decoration: underline solid salmon;
 }
 .work_exp {
   border-bottom: 1px solid salmon;
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
+}
+.skill_pozision {
+  text-align: right;
   border-bottom: 1px solid salmon;
 }
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font: weight 100px;
@@ -39,9 +52,6 @@ body {
   text-transform: uppercase;
   background-color: rgb(98, 124, 207);
 }
-b {
-  font-weight: lighter;
-}
 
 a:link {
   color: #00f(187, 59, 78);
@@ -50,10 +60,11 @@ a:link {
 a:visited {
   color: #005;
 }
-
 a:hover {
   text-decoration: none;
 }
 .list {
-  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
