@@ -1,0 +1,15 @@
+@font-face {
+  font-family: miltonian;
+  src: url(../fonts/Miltonian/Miltonian-Regular.ttf);
+}
+@font-face {
+  font-family: monda;
+  src: url(../fonts/monda/Monda-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body {
+   margin: 0;
+}
