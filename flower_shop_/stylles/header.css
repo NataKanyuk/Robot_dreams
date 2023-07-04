@@ -10,6 +10,18 @@ header img {
   width: 130px;
   margin: 0 150px;
 }
+.flower img {
+  max-width: 150px;
+  margin: 0 150px;
+  transition: all 30px;
+}
+.background {
+  background-color: rgba(104, 78, 78, 0.7);
+  transition: background-color 0.3s ease;
+}
+.background:hover {
+  background-color: rgb(102, 92, 92);
+}
 .work_time p {
   top: 51px;
   font-size: var(--header-font-size);
@@ -62,6 +74,10 @@ nav button {
   text-decoration-line: underline;
   background-color: var(--purple-background);
 }
+.flower:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
 @media screen and (max-width: 1332px) {
   .background {
     background: scroll;
@@ -79,6 +95,12 @@ nav button {
   }
   h1 {
     margin: 10%;
+  }
+}
+@media (min-width: 900px) {
+  .flower img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(131, 115, 115, 0.569);
   }
 }
 @media screen and (max-width: 710px) {
