@@ -6,7 +6,7 @@ main {
   height: 1200px;
   padding: 8%;
   margin: auto;
-  overflow-wrap: normal; 
+  overflow-wrap: normal;
 }
 main img {
   width: 25%;
