@@ -23,6 +23,9 @@ main {
   text-align: center;
   font-family: montserrat;
 }
+.shoping_now1 {
+  display: none;
+}
 .assortment {
   display: block;
   text-align: center;
@@ -50,4 +53,8 @@ main {
   font-size: 15px;
   display: contents;
   font-family: monda;
+}
+.work_time2,
+.work_adress2 {
+  display: none;
 }
