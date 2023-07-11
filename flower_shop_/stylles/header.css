@@ -78,70 +78,70 @@ nav button {
   transform: scale(1.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
-@media screen and (max-width: 1332px) {
-  .background {
-    background: scroll;
+@media screen and (max-width: 980px) {
+  header img {
+    margin: 0 80px;
   }
+  nav {
+    position: relative;
+    font-size: 100px;
+  }
+  nav a {
+    margin: 20px;
+  }
+  .order_now {
+    float: none !important;
+  }
+  div img {
+    height: 120px;
+    width: 120px;
+  }
+  span {
+    font-size: 15px !important;
+  }
+  .work_time,
+  .work_adress {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 460px) {
   nav a {
     display: none;
   }
   nav button {
     display: block;
-    border: var(--purple-background);
-  }
-  .order_now {
-    background: #9e92a1;
-    text-align: center;
-  }
-  h1 {
-    margin: 10%;
-  }
-}
-@media (min-width: 900px) {
-  .flower img:hover {
-    transform: scale(1.2);
-    box-shadow: 0 4px 8px rgba(131, 115, 115, 0.569);
-  }
-}
-@media screen and (max-width: 710px) {
-  .work_adress,
-  .work_time {
-    margin: 20%;
-  }
-  .work_adress {
-    position: absolute;
-    top: 100%;
-  }
-  .work_time {
-    position: absolute;
-    top: 90%;
-  }
-  .assortment {
-    padding: 0 20% 0;
+    font-size: 40px;
   }
   .assortment_container,
   .assortment_container2,
   .assortment_container3 {
-    display: inline-block;
-    padding: 30px;
-    margin: 0;
+    display: inline !important;
   }
-  .order_now {
-    float: none !important ;
+  .assortment_container .flower,
+  .assortment_container2 .flower,
+  .assortment_container3 .flower {
+    margin: 10px !important;
+  }
+  .shoping_now {
+    display: none;
+  }
+  .shoping_now1 {
+    display: block !important;
+    text-align: center;
+  }
+
+  .work_time,
+  .work_adress {
+    display: none;
+  }
+  .work_time2,
+  .work_adress2 {
+    display: block !important;
+    text-align: center;
   }
   .line {
     display: block !important;
-  }
-}
-@media (min-width: 463px) and (max-width: 635px) {
-  .assortment_container,
-  .assortment_container2,
-  .assortment_container3 {
-    display: inline;
-    padding: 0%;
-  }
-  .flower {
-    height: 30px;
-    width: 30px;
+    width: 154px;
+    height: 1px;
   }
 }
