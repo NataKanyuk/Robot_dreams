@@ -46,11 +46,12 @@
   }
 
   .header_center {
-    padding-top: 83px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 170px;
 
     h1 {
       color: $text-color;
@@ -58,7 +59,7 @@
       font-size: 50px;
       font-weight: 800;
       line-height: 120%;
-      margin-bottom: 20px;
+      margin-bottom: 60px;
     }
 
     p {

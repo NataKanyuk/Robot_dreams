@@ -51,7 +51,7 @@ body {
   line-height: 104.5%;
 }
 .header .header_center {
-  padding-top: 83px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,7 +242,7 @@ main .services {
     padding-top: 0;
   }
   main .services .button {
-    top: 2030px;
+    top: 1970px;
     left: 835px;
   }
 }
@@ -271,7 +271,7 @@ main .services_top_content_icon_group {
   gap: 83px;
 }
 main .services_bottom {
-  height: 260px;
+  height: 310px;
   background-color: #F2F2F2;
   padding-top: 28px;
 }
@@ -283,7 +283,6 @@ main .services_bottom h3 {
 }
 main .services_bottom p {
   color: #19435A;
-  text-align: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -293,7 +292,7 @@ main .services_bottom p {
   margin: 0 auto;
 }
 main .button {
-  top: 2010px;
+  top: 1970px;
   left: 835px;
   position: absolute;
 }
