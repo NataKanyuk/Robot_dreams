@@ -14,19 +14,19 @@ body {
   margin: 0;
 }
 :root {
-  --purple-background: #76657bb0;
+  --purple-background: #b498b7;
   --purple-hover-background: #b498b7;
-  --black-border-color:#000000;
+  --black-border-color: #000000;
   --main-border-radius: 10px;
   --header-font-size: 20px;
   --main-placeholder-color: #000000;
   --background-image: url(../photo_flower/Rectangle\ 2Background\ .png);
   --main-hover-background: #8a5e90;
 }
-.main_theme{
-  --purple-background: #76657bb0;
+.main_theme {
+  --purple-background: #b498b7;
   --purple-hover-background: #b498b7;
-  --black-border-color:#000000;
+  --black-border-color: #000000;
   --main-border-radius: 10px;
   --header-font-size: 20px;
   --main-placeholder-color: #000000;
@@ -35,8 +35,8 @@ body {
 }
 .my_theme {
   --purple-background: #fcb1a6;
-  --purple-hover-background:#fb6376;
-  --black-border-color:#000000;
+  --purple-hover-background: #fb6376;
+  --black-border-color: #000000;
   --main-border-radius: 10px;
   --header-font-size: 20px;
   --main-placeholder-color: #000000;
