@@ -9,7 +9,7 @@ for (let i = 0; i < array.length; i++) {
 }
 console.log('Сума елементів масиву:', totalSum);
 
-let numericElements = array.filter(element => typeof element === 'number' || !isNaN(element));
+let numericElements = array.filter(element => typeof element === 'number' && !isNaN(element));
 
 if (numericElements.length > 0) {
     let minValue = Math.min(...numericElements);
