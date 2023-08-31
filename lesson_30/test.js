@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const calculateTotalSum = require('./script');
+const calculateTotalSum = require('./sum');
 
 describe('calculateTotalSum', function () {
     it('should calculate the sum of numeric elements in the array', function () {
@@ -22,7 +22,7 @@ describe('calculateTotalSum', function () {
 });
 //Lesson26
 const { assert } = require('chai');
-const CancelableAccumulator = require('./script');
+const CancelableAccumulator = require('./sum');
 describe('CancelableAccumulator', function () {
     it('should accumulate values and clear them', function () {
         const accumulator = new CancelableAccumulator(10);
@@ -40,7 +40,7 @@ describe('CancelableAccumulator', function () {
 });
 //lesson28
 const { assert } = require('chai');
-const toggleImageSize = require('./script');
+const toggleImageSize = require('./sum');
 
 describe('toggleImageSize', () => {
     it('should enlarge the image when it does not have the "enlarged" class', () => {
