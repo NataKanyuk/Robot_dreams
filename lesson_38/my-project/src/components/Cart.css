@@ -1,0 +1,22 @@
+.basket {
+  max-width: 40px;
+  height: auto; 
+}
+
+.cart {
+  position: relative;
+}
+
+.counter {
+  background-color: rgba(187, 34, 169, 0.806);
+  display: block;
+  color: white;
+  width: 24px;
+  height: 24px; 
+  border-radius: 50%; 
+  line-height: 24px;
+  text-align: center;
+  position: absolute;
+  left: 55px;
+  top: 0px;
+}
