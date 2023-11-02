@@ -1,0 +1,144 @@
+.header {
+  box-sizing: border-box;
+  background-image: url(../photo_workshop/home.png);
+  width: 1750px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .header_top {
+    display: flex;
+    padding-top: 120px;
+    height: 80px;
+    justify-content: center;
+
+    @media screen and (max-width: 1600px) {
+      width: 1900px;
+      padding-top: 30px;
+    }
+
+    .img_logo {
+      width: 80px;
+      height: 87px;
+    }
+
+    .name_logo {
+      color: $text-color;
+      text-transform: uppercase;
+      height: 81px;
+      width: 324px;
+
+      h3 {
+        font-weight: bold;
+        font-size: 46px;
+        letter-spacing: 0.2px;
+        line-height: 104.5%;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 20px;
+        line-height: 104.5%;
+      }
+    }
+  }
+
+  .header_center {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+
+    h1 {
+      color: $text-color;
+      text-align: center;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 120%;
+      margin-bottom: 60px;
+    }
+
+    p {
+      width: 520px;
+      color: $text-color;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+    }
+
+    .icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 350px;
+      height: 100px;
+      gap: 100px;
+    }
+
+    .wrench {
+      display: flex;
+      padding: 80px;
+    }
+
+    .wrench_group {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .rhombus {
+      height: 125px;
+      margin: 0 100px;
+    }
+
+    .wrench_group {
+      text-decoration: none;
+      width: 130px;
+      height: 100px;
+      color: $text-color;
+      bottom: 120px;
+
+      .wrench_name {
+        display: block;
+        width: 93px;
+        margin: 66px 45px;
+      }
+    }
+
+    .button {
+      padding-bottom: 120px;
+
+      .button_help {
+        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+        background-color: $primary-color;
+        border: 1px solid $text-color;
+        color: $text-color;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 34px;
+
+        &:hover {
+          background-color: $secondary-color;
+          box-shadow: 0 4px 8px 0 rgba(245, 239, 239, 0.2), 0 6px 20px 0 $text-color;
+        }
+      }
+    }
+  }
+}
