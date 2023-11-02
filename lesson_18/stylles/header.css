@@ -1,0 +1,170 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 130px;
+  font-style: normal;
+}
+header img {
+  height: 130px;
+  width: 130px;
+  margin: 0 150px;
+}
+
+.flower img {
+  max-width: 150px;
+  margin: 0 150px;
+  transition: transform 0.4s;
+}
+.flower img:hover {
+  transform: scale(1.8);
+  box-shadow: 0 8px 12px rgba(74, 7, 71, 0.723);
+}
+
+.background {
+  background-color: rgba(60, 52, 52, 0.7);
+  transition: background-color 0.3s ease;
+}
+.background:hover {
+  background-color: rgb(102, 92, 92);
+}
+
+.work_time p {
+  top: 51px;
+  font-size: --header-font-size;
+  font-family: "Inter";
+}
+
+.work_adress {
+  font-family: "Inter";
+  font-size: --header-font-size;
+  width: 210px;
+}
+
+nav {
+  width: 100%;
+  margin: 0;
+  background: --purple-background;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  text-transform: uppercase;
+}
+nav a {
+  color: #000000;
+  font-family: montserrat;
+  text-decoration-line: underline;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 0 120px;
+  font-variant: all-small-caps;
+  background-color: --purple-background;
+}
+nav a:hover {
+  background: --purple-hover-background;
+}
+nav a:nth-child(2) {
+  padding: 20px;
+}
+nav button {
+  display: none;
+  color: #000;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: all-small-caps;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-decoration-line: underline;
+  background-color: --purple-background;
+}
+
+.transparent-block {
+  opacity: 0.7;
+}
+.transparent-block:hover {
+  opacity: 1;
+}
+
+.assortment_container {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.assortment_container:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 980px) {
+  header img {
+    margin: 0 80px;
+  }
+  nav {
+    position: relative;
+    font-size: 100px;
+  }
+  nav a {
+    margin: 20px;
+  }
+  div .order_now {
+    float: none;
+  }
+  div img {
+    height: 120px;
+    width: 120px;
+  }
+  span a {
+    font-size: 15px;
+  }
+  .work_time,
+  .work_adress {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 460px) {
+  nav a {
+    display: none;
+  }
+  nav button {
+    display: block;
+    font-size: 40px;
+  }
+  div .assortment_container,
+  .assortment_container2,
+  .assortment_container3 {
+    display: inline;
+  }
+  div .assortment_container .flower,
+  .assortment_container2 .flower,
+  .assortment_container3 .flower {
+    margin: 10px !important;
+  }
+  .shoping_now {
+    display: none;
+  }
+  div .shoping_now1 {
+    display: block;
+    text-align: center;
+  }
+  .work_time,
+  .work_adress {
+    display: none;
+  }
+  .work_time2,
+  .work_adress2 {
+    display: block !important;
+    text-align: center;
+  }
+  div .line {
+    display: block;
+    width: 154px;
+    height: 1px;
+  }
+  .flower img:hover {
+    transform: none;
+    box-shadow: 0 8px 12px rgba(74, 7, 71, 0.723);
+  }
+}/*# sourceMappingURL=header.css.map */

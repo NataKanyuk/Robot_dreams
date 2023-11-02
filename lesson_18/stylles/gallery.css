@@ -1,0 +1,15 @@
+.gallery main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 1200px;
+  padding: 8%;
+  margin: auto;
+  overflow-wrap: normal;
+}
+.gallery img {
+  width: 25%;
+  margin: 0px;
+  padding: 15px 10px;
+}/*# sourceMappingURL=gallery.css.map */

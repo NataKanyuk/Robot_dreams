@@ -1,0 +1,91 @@
+$background-image: url(../photo_flower/Background.png);
+$purple-background: #b498b7;
+$main-border: #000;
+
+main {
+  background: --background-image;
+
+
+  background-size: cover;
+  margin: 0%;
+}
+
+.order_fast {
+
+
+  text-align: center;
+}
+
+
+
+main {
+  background: var(--background-image);
+  background-size: cover;
+  margin: 0%;
+}
+
+.order_fast {
+  text-align: center;
+}
+
+.order_now {
+  font-family: miltonian;
+  background-color: var(--purple-background);
+  float: right;
+  padding: 20px;
+  margin-right: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  border: 1px solid var(--main-border);
+}
+
+.line {
+  display: none;
+}
+
+.shoping_now {
+  text-align: center;
+  font-family: montserrat;
+}
+
+.shoping_now1 {
+  display: none;
+}
+
+.assortment {
+  display: block;
+  text-align: center;
+  font-family: monda;
+  padding: 6%;
+}
+
+.assortment h1 {
+  font-variant: all-small-caps;
+}
+
+.assortment_container,
+.assortment_container2,
+.assortment_container3 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.assortment_container .flower,
+.assortment_container2 .flower,
+.assortment_container3 .flower {
+  margin: 90px;
+  display: block;
+}
+
+.assortment_container span,
+.assortment_container2 span,
+.assortment_container3 span {
+  font-size: 15px;
+  display: contents;
+  font-family: monda;
+}
+
+.work_time2,
+.work_adress2 {
+  display: none;
+}
